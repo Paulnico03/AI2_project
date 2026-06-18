@@ -1,0 +1,46 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 25
+Aibr Preprocessing
+UFX:false
+|F|:20
+|X|:0
+|A|:32
+|P|:0
+|E|:0
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 16
+h(I):15.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=9.0
+ g(n)= 4.0 h(n)=6.0
+ g(n)= 7.0 h(n)=5.0
+ g(n)= 8.0 h(n)=3.0
+ g(n)= 10.0 h(n)=2.0
+ g(n)= 11.0 h(n)=1.0
+Problem Solved
+
+Found Plan:
+0.0: (move robby dock aisle-A)
+1.0: (pick robby pkg1 aisle-A)
+2.0: (move robby aisle-A shipping)
+3.0: (drop robby pkg1 shipping)
+4.0: (move robby shipping aisle-B)
+5.0: (pick robby pkg3 aisle-B)
+6.0: (move robby aisle-B shipping)
+7.0: (drop robby pkg3 shipping)
+8.0: (move robby shipping aisle-A)
+9.0: (pick robby pkg2 aisle-A)
+10.0: (move robby aisle-A shipping)
+11.0: (drop robby pkg2 shipping)
+
+Plan-Length:12
+Metric (Search):12.0
+Planning Time (msec): 27
+Heuristic Time (msec): 11
+Search Time (msec): 25
+Expanded Nodes:15
+States Evaluated:28
+Number of Dead-Ends detected:0
+Number of Duplicates detected:15

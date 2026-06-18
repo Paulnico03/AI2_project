@@ -1,0 +1,17 @@
+# IDE and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled outputs (optional — you might want to include binaries)
+*.class
+*.jar
+
+# Keep everything else
+!*.pddl
+!*.txt
+!*.pdf
+!*.md
