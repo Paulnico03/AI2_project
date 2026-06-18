@@ -1,6 +1,5 @@
 # Assignment D3-V1: Warehouse Robotics – Single Robot Pick-and-Deliver
 
-## ⚠️ IMPORTANT: Code Files to Check
 
 ### Classical PDDL Model
 - **Domain:** `codes/classical/domain-warehouse.pddl`
@@ -13,7 +12,7 @@
 - **Problem Plus 2:** `codes/pddl-plus/problem-plus-2-complex-balanced.pddl`
 - **Problem Plus 3:** `codes/pddl-plus/problem-plus-3-missed-deadline.pddl`
 
-**✅ All files have been tested and run without errors in ENHSP-20.**
+** All files have been tested and run without errors in ENHSP-20.**
 
 ---
 
